@@ -1,0 +1,13 @@
+#Ansible Playbook
+---
+    name: Deploy web application
+    hosts: db_and_web_server
+    tasks:
+        - name: Install dependencies
+        - name: Install MySQL Database
+        - name: Start Mysql Service
+        - name: Create Application Database
+        - name: Create Application DB User
+        - name: Install Python Flask dependencies
+        - name: Copy web-server code
+        - name: Run web-server
